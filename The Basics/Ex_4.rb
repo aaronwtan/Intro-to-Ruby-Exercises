@@ -7,6 +7,6 @@ movies = {:The_Dark_Knight=>2008,
           :The_Dark_Knight_Rises=>2012, 
           :Memento=>2000}
 
-movies_array = [movies[:The_Dark_Knight], movies[:Interstellar], movies[:Inception], movies[:Dunkirk], movies[:The_Dark_Knight_Rises], movies[:Memento]]
+dates = [movies[:The_Dark_Knight], movies[:Interstellar], movies[:Inception], movies[:Dunkirk], movies[:The_Dark_Knight_Rises], movies[:Memento]]
 
-puts movies_array
+puts dates
