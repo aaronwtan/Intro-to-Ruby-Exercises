@@ -34,3 +34,10 @@ p contacts
 # contacts["Sally Johnson"][:phone] = contact_data[1][2]
 
 # p contacts
+
+
+
+# Using the hash you created from the previous exercise, demonstrate how you would access Joe's email and Sally's phone number?
+
+puts "Joe's email is #{contacts["Joe Smith"][:email]}"
+puts "Sally's phone number is #{contacts["Sally Johnson"][:phone]}"
