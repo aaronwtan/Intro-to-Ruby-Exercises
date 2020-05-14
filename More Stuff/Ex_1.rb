@@ -9,7 +9,7 @@ Write a program that checks if the sequence of characters "lab" exists in the fo
 =end
 
 def has_lab?(word)
-  if /lab/.match(word)
+  if /lab/i.match(word)
     puts word
   else
     puts "lab does not exist"
